@@ -18,7 +18,7 @@ type Mutex struct {
 }
 
 // SpinFor controls the number of iterations Lock/Clock is allowed to spin for before
-// resoring to a slower (channel based) way of locking.
+// resorting to a slower (channel based) way of locking.
 var SpinFor = 50
 
 // Lock the mutex.
