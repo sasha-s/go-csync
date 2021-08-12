@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 // Mutex is a context-aware mutual exclusion lock.
