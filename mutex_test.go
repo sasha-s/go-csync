@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
+	"context"
+	"sync/atomic"
 )
-import "sync/atomic"
 
 func TestMutexPanic(t *testing.T) {
 	defer func() {
